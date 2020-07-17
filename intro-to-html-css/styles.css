@@ -62,17 +62,30 @@ header {
 header {
   line-height: 1.5;
 }
+/*I changed the border and border-radius for the profile pic*/
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 10px;
-  border: 3px solid white;
+  border-radius: 90px;
+  border: 5px solid rgb grey;
   transition: all .5s;
 }
+/*I also made some changes to the hover properties*/
+
 header .profile-image:hover {
-  transform: scale(3) rotate(360deg);
+  transform: scale(1.5) rotate(360deg);
 }
+
+/*Here's my custom CSS to modify the image I made to make the page more interesting*/
+.food-image {
+  margin-top: 50px;
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -94,6 +107,18 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
 }
+/*I added some custom CSS here to further customize this page*/
+
+.card-experience {
+  margin: 0px;
+  padding: 50px;
+  max-width: 500px;
+  text-align: left;
+  background: rgb(152, 169, 206);
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+
 .card:hover {
   border-color: #9b99ff;
 }
@@ -174,6 +199,13 @@ a.social:hover {
       margin: 0 auto;
   }
 
+  .exp-flex {
+    display: flex;
+    max-width: 2400px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
   header {
     min-height: 450px;
   }
@@ -205,11 +237,16 @@ a.social:hover {
 }
 
 h3 {
-  color: brown;
+  color: rgb(10, 12, 109);
   letter-spacing: .5px
 }
+/*I made some changes to this card-title CSS element*/
+
 .card-title {
     text-align: center;
+    text-shadow: black;
+    padding: 5px;
     border: solid black 3px;
     border-radius: 10px;
+    font-size: large;
   }
