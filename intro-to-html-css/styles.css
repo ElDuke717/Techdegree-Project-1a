@@ -54,7 +54,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -66,7 +66,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 10px;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -95,7 +95,7 @@ header .profile-image:hover {
   border-radius: 6px;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #9b99ff;
 }
 
 ul.skills {
@@ -211,5 +211,5 @@ h3 {
 .card-title {
     text-align: center;
     border: solid black 3px;
-    border-radius: 50%;
+    border-radius: 10px;
   }
