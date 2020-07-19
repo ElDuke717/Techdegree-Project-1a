@@ -114,7 +114,7 @@ header .profile-image:hover {
   padding: 50px;
   max-width: 500px;
   text-align: left;
-  background: rgb(152, 169, 206);
+  background: lightblue;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
 }
@@ -140,6 +140,29 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+
+/*I added a CSS element to help format and arrange photos.*/
+.photos {
+  max-width: 1000px;
+  max-height: 500px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 10px solid white;
+  border-radius: 5%;
+}
+
+.photos2 {
+  max-width: 500px;
+  max-height: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10%;
+  border: 5px solid beige;
+}
+
 
 footer {
   width: 100%;
@@ -237,16 +260,17 @@ a.social:hover {
 }
 
 h3 {
-  color: rgb(10, 12, 109);
+  color: sienna (10, 12, 109);
   letter-spacing: .5px
 }
 /*I made some changes to this card-title CSS element*/
 
 .card-title {
     text-align: center;
-    text-shadow: black;
+    text-shadow: white;
     padding: 5px;
-    border: solid black 3px;
+    border: solid sienna 3px;
     border-radius: 10px;
     font-size: large;
+    background-color: blanchedalmond;
   }
