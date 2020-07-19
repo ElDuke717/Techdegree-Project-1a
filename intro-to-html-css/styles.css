@@ -111,8 +111,8 @@ header .profile-image:hover {
 
 .card-experience {
   margin: 0px;
-  padding: 50px;
-  max-width: 500px;
+  padding: 20px;
+  max-width: 1000px;
   text-align: left;
   background: lightblue;
   border-bottom: 4px solid #ccc;

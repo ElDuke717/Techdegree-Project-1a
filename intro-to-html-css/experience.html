@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
     <body>
-        <div class="main-nav">
+        <nav class="main-nav">
             <ul class="nav">
-              <li class="name">Nick Huemmer</li>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="experience.html">Experience</a></li>
-              <li><a href="photos.html">Photos</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
+           <li class="name">Nick Huemmer</li>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="experience.html">Experience</a></li>
+           <li><a href="photos.html">Photos</a></li>
+           <li><a href="#">Contact</a></li>
+         </ul>
+     </nav>
 
         <header>
             <img src="images/nickprosquare.jpg" alt="Portrait of Nick" class="profile-image">
@@ -26,32 +26,36 @@
     
     <!--I added a stand-along pic here to make the site more interesting, I added a CSS tag to modify the image.-->
     <div><img src="images/foodscience.png" alt="Food Science Diagram" class="food-image">
+    
+    <!--I decided to add an appropriate quote here, then used the <citation> element that is linked to a Wikipedia page that opens in a new link-->
+    <blockquote>“You are never too old to set another goal or to dream a new dream.”</blockquote>
+    <cite><a href="https://en.wikipedia.org/wiki/C._S._Lewis" target="_blank">C.S. Lewis </a></cite>
 
     </div>
         <main>
             <main class="exp-flex">
-                <div class="card-experience">
-                     <!--HTML used to center the text here.-->   
+                <section iv class="card-experience">
+                      <!--HTML used to center the text here.-->   
                     <h2 style="text-align:center;"><strong>I have a Master's Degree in Food Science and worked in the Food Industry for 17 years</strong></h2> 
-                    <p>I've worked on every kind of food, from cheese to cheese powder, frozen pizza, mac n cheese, energy bars and beverages.</p>
-                    <p>Now I'm learning to code and build and maintain websites since it has been a side-interest of mine for years!</p>
-                  <h3 class="card-title">Career Experiences</h3>
-                  <ul>
-                  <li><p>Summer 2019-Present Traveled Across America, Became a Full-Time Dad, Health Coach and Personal Trainer</p></li> 
-                  <li><p>2014-2019 Senior Product Developer, Clif Bar</p></li>
-                  <li><p>2012-2014 Scientist II, Clorox</p></li>
-                  <li><p>2010-2012 Product Developer, Nestle Pizza Division</p></li>
-                  <li><p>2007-2010 Scientist, Kraft Foods</p></li>
-                  <li><p>2006-2007 Quality Manager, Columbus Vegetable Oils</p></li>
-                  <li><p>2004-2006 Scientist, Kerry Ingredients</p></li>
-                  <li><p>2003-2004 Intern, Nestle Beverage Division</p></li>
-                </ul>
-                <h3 class="card-title">Education</h3>
-                  <ul>
-                    <li><p>Masters of Science, Food Science, Ohio State University </p></li>
-                    <li><p>Bachelor's of Science, Biological Sciences, Food Science, Minor in Nutrition</p></li>
-          
-                </div> 
+                        <p>I've worked on every kind of food, from cheese to cheese powder, frozen pizza, mac n cheese, energy bars and beverages.</p>
+                        <p>Now I'm learning to code and build and maintain websites since it has been a side-interest of mine for years!</p>
+                    <h3 class="card-title">Career Experiences</h3>
+                        <ul>
+                            <li><p>Summer 2019-Present Traveled Across America, Became a Full-Time Dad, Health Coach and Personal Trainer</p></li> 
+                            <li><p>2014-2019 Senior Product Developer, Clif Bar</p></li>
+                            <li><p>2012-2014 Scientist II, Clorox</p></li>
+                            <li><p>2010-2012 Product Developer, Nestle Pizza Division</p></li>
+                            <li><p>2007-2010 Scientist, Kraft Foods</p></li>
+                            <li><p>2006-2007 Quality Manager, Columbus Vegetable Oils</p></li>
+                            <li><p>2004-2006 Scientist, Kerry Ingredients</p></li>
+                            <li><p>2003-2004 Intern, Nestle Beverage Division</p></li>
+                        </ul>
+                    <h3 class="card-title">Education</h3>
+                        <ul>
+                            <li><p>Masters of Science, Food Science, Ohio State University </p></li>
+                            <li><p>Bachelor's of Science, Biological Sciences, Food Science, Minor in Nutrition</p></li>
+                        </ul>   
+                </section> 
           </main>
 
           <footer>
