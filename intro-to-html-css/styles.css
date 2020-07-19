@@ -1,4 +1,6 @@
 /* Global Layout Set-up */
+
+/* Verified no code errors with https://jigsaw.w3.org/css-validator/validator 7:16 7-18-20. */
 * {
   box-sizing: border-box;
 }
@@ -69,7 +71,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 90px;
-  border: 5px solid rgb grey;
+  border: 5px; 
   transition: all .5s;
 }
 /*I also made some changes to the hover properties*/
@@ -260,14 +262,12 @@ a.social:hover {
 }
 
 h3 {
-  color: sienna (10, 12, 109);
+  color: sienna;
   letter-spacing: .5px
 }
 /*I made some changes to this card-title CSS element*/
-
 .card-title {
     text-align: center;
-    text-shadow: white;
     padding: 5px;
     border: solid sienna 3px;
     border-radius: 10px;
