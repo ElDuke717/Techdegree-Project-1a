@@ -1,4 +1,6 @@
 # Techdegree Project 1a
+7-20-20 Completed assignment, peer reviewed and ready to submit. 
+
 This is where my Treehouse TechDegree First Assigment files are stored.  I'm hopeful that these files and repository work right! 
 
 
